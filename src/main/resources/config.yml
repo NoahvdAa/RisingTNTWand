@@ -1,0 +1,12 @@
+Item:
+  type: DIAMOND_HOE
+  name: '&cT&fN&cT &fWand'
+  lore: '&aRight click on a chest\n&ato add the tnt in it\n&ato your faction tnt bank.\n\n&f&lUses remanining: &4{uses}'
+
+Messages:
+  nofaction: '&cYou must be in a faction to use this!'
+  notachest: '&cThat block is not a chest!'
+  notclaimed: '&cThat chest is not in your territory!'
+  chestempty: '&cThat chest does not contain TNT!'
+  bankfull: '&cYour faction tnt bank is full!'
+  added: '&aAdded {tnt} to your faction tnt bank!'

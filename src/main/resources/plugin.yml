@@ -1,0 +1,21 @@
+name: RisingTNTWand
+main: cc.risingtide.risingtntwand.RisingTNTWand
+authors: [NoahvdAa]
+version: 1.0.0
+website: risingtide.cc
+depend: [Factions]
+commands:
+  tntwand:
+   description: Give a tnt wand to someone
+   permission: risingtntwand.give
+   usage: /tntwand <name> <uses|infinite>
+  risingtntwand:
+   description: Shows plugin info and allows you to relaod it.
+   usage: /risingtntwand [reload]
+permissions:
+  risingtntwand.give:
+   description: Allows you to use the tntwand command.
+   default: op
+  risingtntwand.reload:
+   description: Allows you to reload the configuration.
+   default: op
